@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(270deg, #fff 80%, #3a3838 50%);
+}
+
+/*nav{
+border:2px solid;
+} */
+ .innerNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: .4rem;
+ }
+
+ .genLayout{
+    /* border: 2px solid blue; */
+    max-width: 1000px;
+    margin: auto;
+ }
+
+ .searchCont{
+    border-bottom: 2px solid;
+    width: 200px;
+    display: flex;
+    align-items: center;
+ }
+
+ .searchCont > input{
+    width: 100%;
+    border: none;
+    padding: .2rem 1rem;
+    outline: none;
+ }
+.tabs{
+    background-color: #fff;
+    margin-block: 1rem;
+    border-block: 1px solid #00000096;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItems{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+
+.date{
+    margin-left: .7rem;
+}
+
+.date > h4{
+    text-transform: capitalize;
+    color: #3a3838;
+}
+
+.date > h6{
+    margin-top: .2rem;
+    text-transform: capitalize;
+}
+.navItems > a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #3a3838;
+    font-weight: 500;
+}
+
+.navItems > a:last-child{
+    background-color: #000;
+    color: #fff;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*main styling*/
+.generalBlogNews{
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 3fr 2fr;
+}
+
+.blogNewsBanner{
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.blogNewsBanner > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.blogCard{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: .3rem ;
+}
+
+.blogCard:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #3a3838;
+    border-radius: 10px ;
+}
+
+.blogCardImage{
+    width: 70%;
+    height: 22vh;
+    border-radius: 10px;
+}
+
+.blogCardImage > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogCardContent > h6{
+    text-transform: capitalize;
+    opacity: .4;
+    font-size: 10px;
+}
+
+.blogCardContent > h6 > {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.blogCardContent > h1{
+    text-transform:capitalize;
+    font-size: 14px;
+    margin-top: .5rem;
+}
+
+.blogCardContent > p {
+    font-size: 12px;
+    margin-block: .4rem;
+}
